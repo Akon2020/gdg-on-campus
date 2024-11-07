@@ -42,10 +42,12 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
+  const leftLists = ["ReactJS", "Angular", "Python"];
+  const rightLists = ["Flutter", "Firebase", "Kotlin"];
   return (
     <div
       className={cn(
-        "row-span-1 relative overflow-hidden rounded-3xl border border-white/[0.1] group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none justify-between flex flex-col space-y-4 p-4",
+        "row-span-1 relative overflow-hidden rounded-3xl border border-white/[0.1] group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none justify-between flex flex-col space-y-4",
         className
       )}
       style={{
@@ -97,8 +99,36 @@ export const BentoGridItem = ({
           >
             {title}
           </div>
+          {/* {id === 2 && <GridGlobe />} */}
+          {id === 3 && (
+            <div className="flex gap-1 lg:gap-2 w-fit absolute -right-3 lg:-right-2">
+              <div className="flex flex-col gap-2 md:gap-2 lg:gap-2 lg:mt-1">
+                {leftLists.map((item, i) => (
+                  <span
+                    key={i}
+                    className="lg:py-2 lg:px-2 py-2 px-3 text-xs lg:text-base opacity-50 
+                    lg:opacity-100 rounded-lg text-center bg-[#10132E]"
+                  >
+                    {item}
+                  </span>
+                ))}
+                <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
+              </div>
+              <div className="flex flex-col gap-2 md:gap-2 lg:gap-2 lg:mr-2 lg:mt-1">
+                <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
+                {rightLists.map((item, i) => (
+                  <span
+                    key={i}
+                    className="lg:py-2 lg:px-2 py-2 px-3 text-xs lg:text-base opacity-50 
+                    lg:opacity-100 rounded-lg text-center bg-[#10132E]"
+                  >
+                    {item}
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
-        {/* {id === 2 && <GridGlobe />} */}
       </div>
     </div>
   );

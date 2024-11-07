@@ -18,7 +18,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "Nous sommes flexible aux technologies",
+    title: "Nous sommes flexible et apte aux communications",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -28,7 +28,7 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "Domaines d'expertise",
+    title: "Nos domaines",
     description: "Nous ne cessons d'apprendre",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
