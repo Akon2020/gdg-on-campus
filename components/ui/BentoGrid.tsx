@@ -62,13 +62,16 @@ export const BentoGridItem = ({
       preserveAspectRatio: "xMidYMid slice",
     },
   };
-
+  
   const handleCopy = () => {
     navigator.clipboard.writeText("gdgoncampusucb@gmail.com");
+    setCopie(true);
+
     setTimeout(() => {
-      setCopie(true);
-    }, 2000);
-  };
+      setCopie(false);
+    }, 1500);
+};
+
   return (
     <div
       className={cn(
