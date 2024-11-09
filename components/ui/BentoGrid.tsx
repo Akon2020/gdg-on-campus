@@ -65,9 +65,9 @@ export const BentoGridItem = ({
 
   const handleCopy = () => {
     navigator.clipboard.writeText("gdgoncampusucb@gmail.com");
-    // setTimeout(() => {
+    setTimeout(() => {
       setCopie(true);
-    // }, 2000);
+    }, 2000);
   };
   return (
     <div
