@@ -8,7 +8,8 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "Nous priorisons la communication, la collaboration et le travail d'équipe 😇",
+    title:
+      "Nous priorisons la communication, la collaboration et le travail d'équipe 😇",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -107,33 +108,38 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborer avec GDG On Campus UCB a été un plaisir absolu. Son professionnalisme, sa rapidité, son souci à faire bien et son dévouement à fournir des résultats exceptionnels ont été évidents tout au long de notre projet. GDG On Campus UCB est enthousiasmée par chaque facette du développement et se démarque véritablement. Si vous cherchez à élever votre solution, vos idées et/ou votre marque, GDG On Campus UCB est le partenaire idéal.",
+    name: "Akonkwa Ushindi Isaac",
+    title: "Co Lead GDG On Campus UCB",
+    profile: '/Me.jpg',
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborer avec GDG On Campus UCB a été un plaisir absolu. Son professionnalisme, sa rapidité, son souci à faire bien et son dévouement à fournir des résultats exceptionnels ont été évidents tout au long de notre projet. GDG On Campus UCB est enthousiasmée par chaque facette du développement et se démarque véritablement. Si vous cherchez à élever votre solution, vos idées et/ou votre marque, GDG On Campus UCB est le partenaire idéal.",
+    name: "Akonkwa Ushindi Isaac",
+    title: "Co Lead GDG On Campus UCB",
+    profile: '/Me.jpg',
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborer avec GDG On Campus UCB a été un plaisir absolu. Son professionnalisme, sa rapidité, son souci à faire bien et son dévouement à fournir des résultats exceptionnels ont été évidents tout au long de notre projet. GDG On Campus UCB est enthousiasmée par chaque facette du développement et se démarque véritablement. Si vous cherchez à élever votre solution, vos idées et/ou votre marque, GDG On Campus UCB est le partenaire idéal.",
+    name: "Akonkwa Ushindi Isaac",
+    title: "Co Lead GDG On Campus UCB",
+    profile: '/Me.jpg',
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborer avec GDG On Campus UCB a été un plaisir absolu. Son professionnalisme, sa rapidité, son souci à faire bien et son dévouement à fournir des résultats exceptionnels ont été évidents tout au long de notre projet. GDG On Campus UCB est enthousiasmée par chaque facette du développement et se démarque véritablement. Si vous cherchez à élever votre solution, vos idées et/ou votre marque, GDG On Campus UCB est le partenaire idéal.",
+    name: "Akonkwa Ushindi Isaac",
+    title: "Co Lead GDG On Campus UCB",
+    profile: '/Me.jpg',
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborer avec GDG On Campus UCB a été un plaisir absolu. Son professionnalisme, sa rapidité, son souci à faire bien et son dévouement à fournir des résultats exceptionnels ont été évidents tout au long de notre projet. GDG On Campus UCB est enthousiasmée par chaque facette du développement et se démarque véritablement. Si vous cherchez à élever votre solution, vos idées et/ou votre marque, GDG On Campus UCB est le partenaire idéal.",
+    name: "Akonkwa Ushindi Isaac",
+    title: "Co Lead GDG On Campus UCB",
+    profile: '/Me.jpg',
   },
 ];
 
