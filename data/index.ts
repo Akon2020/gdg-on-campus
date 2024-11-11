@@ -73,27 +73,27 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://ui.earth.com",
+    title: "World Found",
+    des: "Une application vous permettant de trouver les mots français existants.",
+    img: "/android.svg",
+    iconLists: ["/flutter.svg", "/firebase.svg"],
+    link: "https://drive.google.com/folders/161C_r59r86roBQ8KG8DPn21JKXLNPuS-",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://ui.yoom.com",
+    title: "Jifunz'App",
+    des: "Une application vous permettant de trouver les maccabés pour certains cours.",
+    img: "/android.svg",
+    iconLists: ["/flutter.svg", "/firebase.svg"],
+    link: "https://drive.google.com/file/d/1TF-1fRLQOdhdqB6W6S3ddhgj-1Suw6Hf/view?usp=sharing",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://ui.aiimg.com",
+    title: "Authentification System",
+    des: "Un espace intégrant l'authentification des utilisateurs avec Python.",
+    img: "/barnabe.png",
+    iconLists: ["/py.svg", "/mysql.svg"],
+    link: "https://barnabe.pythonanywhere.com",
   },
   {
     id: 4,
@@ -146,9 +146,9 @@ export const testimonials = [
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "Google",
+    img: "/google.svg",
+    nameImg: "",
   },
   {
     id: 2,
@@ -158,9 +158,9 @@ export const companies = [
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    name: "Google Dev",
+    img: "/googledev.svg",
+    nameImg: "",
   },
   {
     id: 4,
