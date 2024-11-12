@@ -15,8 +15,8 @@ const Footer = () => {
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Vous êtes prêt à Apprendre,{" "}
-          <span className="text-purple">Grandir</span> et à vous Connecter
+          Prêt à Apprendre,{" "}
+          <span className="text-purple">Grandir</span> et à vous Connecter?
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
           Rejoins notre large communauté aujourd&apos;hui et ensemble créeons un
@@ -46,7 +46,7 @@ const Footer = () => {
               className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
             >
               <a
-                href="https://gdg.community.dev/e/mvr6h5/"
+                href={info.link}
                 target="_blank"
                 rel="noopener noreferrer"
               >

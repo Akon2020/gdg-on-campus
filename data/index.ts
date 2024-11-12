@@ -100,7 +100,13 @@ export const projects = [
     title: "Digi Presence",
     des: "Un admin dashboard permettant de faire la gestion des présences d'une école.",
     img: "/digiP.png",
-    iconLists: ["/html.svg", "/css.svg", "/js.svg", "/firebase.svg", "/git.svg"],
+    iconLists: [
+      "/html.svg",
+      "/css.svg",
+      "/js.svg",
+      "/firebase.svg",
+      "/git.svg",
+    ],
     link: "https://mrb-digipresence.netlify.app",
   },
   {
@@ -127,35 +133,35 @@ export const testimonials = [
       "Collaborer avec GDG On Campus UCB a été un plaisir absolu. Son professionnalisme, sa rapidité, son souci à faire bien et son dévouement à fournir des résultats exceptionnels ont été évidents tout au long de notre projet. GDG On Campus UCB est enthousiasmée par chaque facette du développement et se démarque véritablement. Si vous cherchez à élever votre solution, vos idées et/ou votre marque, GDG On Campus UCB est le partenaire idéal.",
     name: "Akonkwa Ushindi Isaac",
     title: "Co Lead GDG On Campus UCB",
-    profile: '/Me.jpg',
+    profile: "/Me.jpg",
   },
   {
     quote:
       "Collaborer avec GDG On Campus UCB a été un plaisir absolu. Son professionnalisme, sa rapidité, son souci à faire bien et son dévouement à fournir des résultats exceptionnels ont été évidents tout au long de notre projet. GDG On Campus UCB est enthousiasmée par chaque facette du développement et se démarque véritablement. Si vous cherchez à élever votre solution, vos idées et/ou votre marque, GDG On Campus UCB est le partenaire idéal.",
     name: "Akonkwa Ushindi Isaac",
     title: "Co Lead GDG On Campus UCB",
-    profile: '/Me.jpg',
+    profile: "/Me.jpg",
   },
   {
     quote:
       "Collaborer avec GDG On Campus UCB a été un plaisir absolu. Son professionnalisme, sa rapidité, son souci à faire bien et son dévouement à fournir des résultats exceptionnels ont été évidents tout au long de notre projet. GDG On Campus UCB est enthousiasmée par chaque facette du développement et se démarque véritablement. Si vous cherchez à élever votre solution, vos idées et/ou votre marque, GDG On Campus UCB est le partenaire idéal.",
     name: "Akonkwa Ushindi Isaac",
     title: "Co Lead GDG On Campus UCB",
-    profile: '/Me.jpg',
+    profile: "/Me.jpg",
   },
   {
     quote:
       "Collaborer avec GDG On Campus UCB a été un plaisir absolu. Son professionnalisme, sa rapidité, son souci à faire bien et son dévouement à fournir des résultats exceptionnels ont été évidents tout au long de notre projet. GDG On Campus UCB est enthousiasmée par chaque facette du développement et se démarque véritablement. Si vous cherchez à élever votre solution, vos idées et/ou votre marque, GDG On Campus UCB est le partenaire idéal.",
     name: "Akonkwa Ushindi Isaac",
     title: "Co Lead GDG On Campus UCB",
-    profile: '/Me.jpg',
+    profile: "/Me.jpg",
   },
   {
     quote:
       "Collaborer avec GDG On Campus UCB a été un plaisir absolu. Son professionnalisme, sa rapidité, son souci à faire bien et son dévouement à fournir des résultats exceptionnels ont été évidents tout au long de notre projet. GDG On Campus UCB est enthousiasmée par chaque facette du développement et se démarque véritablement. Si vous cherchez à élever votre solution, vos idées et/ou votre marque, GDG On Campus UCB est le partenaire idéal.",
     name: "Akonkwa Ushindi Isaac",
     title: "Co Lead GDG On Campus UCB",
-    profile: '/Me.jpg',
+    profile: "/Me.jpg",
   },
 ];
 
@@ -211,14 +217,22 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    img: "/insta.svg",
+    link: "https://www.instagram.com/gdgocucbukavu",
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://x.com/gdgocucbukavu",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/company/gdgocucbukavu",
+  },
+  {
+    id: 4,
+    img: "/git.svg",
+    link: "https://github.com/gdgocucbukavu",
   },
 ];
