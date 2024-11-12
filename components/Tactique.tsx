@@ -11,7 +11,7 @@ const Tactique = () => {
   return (
     <section className="w-full py-20">
       <h1 className="heading">
-        My <span className="text-purple">approach</span>
+        Notre guide <span className="text-purple">vers le succès</span>
       </h1>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         <Card
@@ -25,7 +25,7 @@ const Tactique = () => {
           /> */}
         </Card>
         <Card
-          title="Conception & Mis à jour des progrès"
+          title="Conception & Mise à jour des progrès"
           icon={<AceternityIcon order="Phase 2" />}
           des="Une fois que nous sommes d'accord sur le plan, chacun de son côté lance sa playlist et se lance dans le codage. Des esquisses initiales au code peaufiné, nous nous tenons au courant à chaque étape du chemin."
         >

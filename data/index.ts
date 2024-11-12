@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "A Propos", link: "#about" },
-  { name: "Projets", link: "#projects" },
-  { name: "Temoignage", link: "#testimonials" },
+  { name: "Projets", link: "#projets" },
+  { name: "Temoignage", link: "#temoignage" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -76,7 +76,7 @@ export const projects = [
     title: "Mix Words",
     des: "Une application vous permettant de trouver les mots français existants.",
     img: "/android.svg",
-    iconLists: ["/flutter.svg", "/firebase.svg"],
+    iconLists: ["/flutter.svg"],
     link: "https://bit.ly/mixwordapp",
   },
   {
@@ -97,7 +97,7 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
+    title: "Digi Presence",
     des: "Un admin dashboard permettant de faire la gestion des présences d'une école.",
     img: "/digiP.png",
     iconLists: ["/html.svg", "/css.svg", "/js.svg", "/firebase.svg", "/git.svg"],
@@ -106,10 +106,18 @@ export const projects = [
   {
     id: 5,
     title: "ePass",
-    des: "Un admin panel permettant de faire la gestion du transport estudiantien de l'UCB.",
+    des: "Un admin panel permettant de faire la gestion du transport estudientin de l'UCB.",
     img: "/epass.png",
     iconLists: ["/re.svg", "/ts.svg", "sass.svg", "node.svg"],
     link: "https://epass.codegrowthalive.com",
+  },
+  {
+    id: 6,
+    title: "Terrain Detection",
+    des: "Une application web permettant de trouver les endroits propre à la construction.",
+    img: "/android.svg",
+    iconLists: ["/js.svg", "/mapbox.svg", "/git.svg", "/netlify.svg"],
+    link: "https://terraindetection.netlify.app/",
   },
 ];
 
@@ -156,31 +164,16 @@ export const companies = [
     id: 1,
     name: "Google",
     img: "/google.svg",
-    nameImg: "",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    name: "WomenTech Makers",
+    img: "/wtm.png",
   },
   {
     id: 3,
     name: "Google Dev",
     img: "/googledev.svg",
-    nameImg: "",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
   },
 ];
 
@@ -208,8 +201,8 @@ export const workExperience = [
   },
   {
     id: 4,
-    title: "Mentorat, Coaching et Remmise N niveau",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Mentorat, Coaching et Remise Niveau",
+    desc: "Apprendre et grandir ensemble étant notre plus grande mission, nous organisons des sessions de mentorat pour répondre éfficacement à notre appel.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },

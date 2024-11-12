@@ -7,7 +7,7 @@ import { InfiniteMovingCards } from "./ui/InfiniteCards";
 
 const Temoignages = () => {
   return (
-    <section id="testimonials" className="py-20">
+    <section id="temoignage" className="py-20">
       <h1 className="heading">
         L&apos;expression de
         <span className="text-purple"> satisfication et de fierté</span>
@@ -31,13 +31,7 @@ const Temoignages = () => {
                 <img
                   src={company.img}
                   alt={company.name}
-                  className="md:w-10 w-5"
-                />
-                <img
-                  src={company.nameImg}
-                  alt={company.name}
-                  width={company.id === 4 || company.id === 5 ? 100 : 150}
-                  className="md:w-24 w-20"
+                  className="md:w-15 w-10"
                 />
               </div>
             </React.Fragment>
