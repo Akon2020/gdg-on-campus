@@ -73,11 +73,11 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "World Found",
+    title: "Mix Words",
     des: "Une application vous permettant de trouver les mots français existants.",
     img: "/android.svg",
     iconLists: ["/flutter.svg", "/firebase.svg"],
-    link: "https://drive.google.com/folders/161C_r59r86roBQ8KG8DPn21JKXLNPuS-",
+    link: "https://bit.ly/mixwordapp",
   },
   {
     id: 2,
@@ -85,23 +85,31 @@ export const projects = [
     des: "Une application vous permettant de trouver les maccabés pour certains cours.",
     img: "/android.svg",
     iconLists: ["/flutter.svg", "/firebase.svg"],
-    link: "https://drive.google.com/file/d/1TF-1fRLQOdhdqB6W6S3ddhgj-1Suw6Hf/view?usp=sharing",
+    link: "https://bit.ly/jifunzapp",
   },
   {
     id: 3,
     title: "Authentification System",
     des: "Un espace intégrant l'authentification des utilisateurs avec Python.",
     img: "/barnabe.png",
-    iconLists: ["/py.svg", "/mysql.svg"],
+    iconLists: ["/py.svg", "/django.svg", "/bootstrap.svg", "/mysql.svg"],
     link: "https://barnabe.pythonanywhere.com",
   },
   {
     id: 4,
     title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://ui.apple.com",
+    des: "Un admin dashboard permettant de faire la gestion des présences d'une école.",
+    img: "/digiP.png",
+    iconLists: ["/html.svg", "/css.svg", "/js.svg", "/firebase.svg", "/git.svg"],
+    link: "https://mrb-digipresence.netlify.app",
+  },
+  {
+    id: 5,
+    title: "ePass",
+    des: "Un admin panel permettant de faire la gestion du transport estudiantien de l'UCB.",
+    img: "/epass.png",
+    iconLists: ["/re.svg", "/ts.svg", "sass.svg", "node.svg"],
+    link: "https://epass.codegrowthalive.com",
   },
 ];
 
