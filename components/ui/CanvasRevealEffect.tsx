@@ -1,4 +1,4 @@
-"use client";
+/* "use client";
 
 import { Canvas, useFrame, useThree } from "@react-three/fiber";
 import React, { useMemo, useRef } from "react";
@@ -55,10 +55,11 @@ const DotMatrix: React.FC<DotMatrixProps> = ({
   center = ["x", "y"],
 }) => {
   const uniforms = useMemo(() => {
-    const colorsArray = colors.map((color) => color.map((c) => c / 255));
+    // Flatten colors array to be compatible with `number[]` type
+    const flattenedColors = colors.flat().map((c) => c / 255);
     return {
       u_time: { value: 0.0 },
-      u_colors: { value: colorsArray, type: "v3v" },
+      u_colors: { value: flattenedColors, type: "1fv" },
       u_opacities: { value: opacities, type: "1fv" },
       u_total_size: { value: totalSize },
       u_dot_size: { value: dotSize },
@@ -77,7 +78,7 @@ const shaderSource = `
 precision mediump float;
 uniform float u_time;
 uniform float u_opacities[10];
-uniform vec3 u_colors[6];
+uniform float u_colors[18]; // Adjust size based on the flattened colors array length
 uniform float u_total_size;
 uniform float u_dot_size;
 uniform vec2 u_resolution;
@@ -89,7 +90,8 @@ float random(vec2 xy) {
 void main() {
     vec2 st = gl_FragCoord.xy / u_resolution;
     float opacity = 1.0;
-    fragColor = vec4(u_colors[int(mod(u_time, 6.0))], opacity);
+    vec3 color = vec3(u_colors[int(mod(u_time, 6.0)) * 3], u_colors[int(mod(u_time, 6.0)) * 3 + 1], u_colors[int(mod(u_time, 6.0)) * 3 + 2]);
+    fragColor = vec4(color, opacity);
 }
 `;
 
@@ -129,3 +131,4 @@ const ShaderMaterial = ({
     </mesh>
   );
 };
+ */
