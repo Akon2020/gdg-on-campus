@@ -28,7 +28,7 @@ const Footer = () => {
           rel="noopener noreferrer"
         >
           <MagicButton
-            title="Rejoindre la communauté"
+            title="Nous Rejoindre"
             icon={<FaLocationArrow />}
             position="right"
           />
