@@ -217,21 +217,26 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
+    img: "/wa.svg",
+    link: "https://chat.whatsapp.com/ChRDbfO6d2QCu6PUydMGHQ",
+  },
+  {
+    id: 2,
     img: "/insta.svg",
     link: "https://www.instagram.com/gdgocucbukavu",
   },
   {
-    id: 2,
+    id: 3,
     img: "/twit.svg",
     link: "https://x.com/gdgocucbukavu",
   },
   {
-    id: 3,
+    id: 4,
     img: "/link.svg",
     link: "https://www.linkedin.com/company/gdgocucbukavu",
   },
   {
-    id: 4,
+    id: 5,
     img: "/git.svg",
     link: "https://github.com/gdgocucbukavu",
   },

@@ -31,7 +31,7 @@ const Temoignages = () => {
                 <img
                   src={company.img}
                   alt={company.name}
-                  className="md:w-15 w-10"
+                  className="md:w-15 w-10 object-contain"
                 />
               </div>
             </React.Fragment>

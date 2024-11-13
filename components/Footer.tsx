@@ -15,8 +15,8 @@ const Footer = () => {
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Prêt à Apprendre,{" "}
-          <span className="text-purple">Grandir</span> et à vous Connecter?
+          Prêt à Apprendre, <span className="text-purple">Grandir</span> et à
+          vous Connecter?
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
           Rejoins notre large communauté aujourd&apos;hui et ensemble créeons un
@@ -34,9 +34,33 @@ const Footer = () => {
           />
         </a>
       </div>
+
+      <div className="w-full pt-30 pb-10">
+        <div className="flex flex-col items-center">
+          <h1 className="heading lg:max-w-[45vw]">
+            Je veux garder <span className="text-purple">le contact</span>
+          </h1>
+          <p className="text-white-200 md:mt-10 my-5 text-center">
+            Restez informer par rapport aux différentes actions et événements
+            avenir en réjoingnant notre communauté sur WhatsApp
+          </p>
+          <a
+            href="https://chat.whatsapp.com/ChRDbfO6d2QCu6PUydMGHQ"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <MagicButton
+              title="Rejoindre WhatsApp"
+              icon={<FaLocationArrow />}
+              position="right"
+            />
+          </a>
+        </div>
+      </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
-        <p className="md:text-base text-sm md:font-normal font-light">
-          Copyright © 2024 GDG On Campus UCB ❤
+        <p className="md:text-base text-sm md:font-normal font-light mb-6 md:mb-0">
+          Copyright © 2024 GDG On Campus UCB{" "}
+          <span style={{ color: "#4285F4", fontSize: "30px" }}>&hearts;</span>
         </p>
 
         <div className="flex items-center md:gap-3 gap-6">
@@ -45,11 +69,7 @@ const Footer = () => {
               key={info.id}
               className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
             >
-              <a
-                href={info.link}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href={info.link} target="_blank" rel="noopener noreferrer">
                 <img src={info.img} alt="icons" width={20} height={20} />
               </a>
             </div>
