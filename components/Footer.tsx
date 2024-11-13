@@ -35,7 +35,7 @@ const Footer = () => {
         </a>
       </div>
 
-      <div className="w-full pt-30 pb-10">
+      <div className="w-full pt-20 pb-10">
         <div className="flex flex-col items-center">
           <h1 className="heading lg:max-w-[45vw]">
             Je veux garder <span className="text-purple">le contact</span>
@@ -59,8 +59,7 @@ const Footer = () => {
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light mb-6 md:mb-0">
-          Copyright © 2024 GDG On Campus UCB{" "}
-          <span style={{ color: "#4285F4", fontSize: "30px" }}>&hearts;</span>
+          Copyright © 2024 GDG On Campus UCB{" "} 💙
         </p>
 
         <div className="flex items-center md:gap-3 gap-6">
